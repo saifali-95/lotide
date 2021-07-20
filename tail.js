@@ -1,14 +1,7 @@
 //FUNCTION TO FIND TAIL OF AN ARRAY WITHOUT AFFECTING THE ACTUAL ARRAY:
 
 const tail = function(array2) {
-  let arrayTail = [];
-  for (let i = 0; i < array2.length; i++) {
-    if (i !== 0) {
-      arrayTail.push(array2[i]);
-    }
-  }
-  return arrayTail;
-
+  return array2.slice(1);
 };
 
 // FUNCTION IMPLEMENTATION
