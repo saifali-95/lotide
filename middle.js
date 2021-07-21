@@ -44,7 +44,7 @@ const middle = function (inputArray){
   }
 }
 
-//TEST CASES:
+//TEST CASES:      
 
 // FOR ARRAYS LENGTH LESS THAN 2
 console.log(middle([1])) // => []
