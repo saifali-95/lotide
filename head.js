@@ -1,17 +1,9 @@
+const assertEqual = require('./assertEqual');
+
+
 //FINDING HEAD OF THE PROVIDED INPUT ARRAY:
 const head = function(array_1){
   return array_1[0];
 }
 
-// FUNCTION FOR TEST CASE:
-const assertEqual = function(actual, expected) {
-  if (actual === expected) {
-    console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
-  } else {
-    console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
-  }
-};
-
-assertEqual(head([5,6,7]), 5);
-assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");
-assertEqual(head([]), "Hello");
+module.exports = head;
