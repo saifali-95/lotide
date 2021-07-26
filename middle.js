@@ -1,20 +1,21 @@
 const assertArraysEqual = require ('./assertArraysEqual');
 const eqArrays = require ('./eqArrays');
 
-// Even Function 
+  // Even Function 
 
-function isEven(n) {
-  return n % 2 == 0;
-}
-
-// ODD function 
-function isOdd(n) {
-  return Math.abs(n % 2) == 1;
-}
+  function isEven(n) {
+    return n % 2 == 0;
+  }
+  
+  // ODD function 
+  function isOdd(n) {
+    return Math.abs(n % 2) == 1;
+  }
 
 //FUNCTION TO FIND THE MIDDLE ELEMENTS OF AN ARRAY.
 
 const middle = function (inputArray){
+    
   if (inputArray.length <= 2){
     return [];
   }
@@ -27,5 +28,5 @@ const middle = function (inputArray){
 }
 
 
-module.exports = middle;
+module.exports = {middle, isEven, isOdd};
 
