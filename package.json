@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@saif_a95/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "Lotide",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/saifali-95/lotide.git"
   },
-  "author": "",
+  "author": "Saif Ali <saifali.zul@gmail.com> (https://github.com/saifali-95/)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/saifali-95/lotide/issues"
@@ -22,5 +22,8 @@
   "devDependencies": {
     "chai": "^4.3.4",
     "mocha": "^9.0.3"
+  },
+  "dependencies": {
+    "my-package": "^0.0.0"
   }
 }

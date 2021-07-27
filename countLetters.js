@@ -1,5 +1,3 @@
-//FUNCTION TO REMOVE SPACES FROM THE STRING AND CONVERT ALL THE ELEMENTS TO UPPERCASE.
-
 const updatedText = function (inputText){
   return inputText.split(" ").join("").toUpperCase(); 
 }
@@ -21,7 +19,5 @@ const countLetters = function (updatedText){
   return countObj;
 }
 
-//TEST CASES:
-console.log(countLetters(updatedText('LHS')));
-console.log(countLetters(updatedText('LightHouse Labs')));
-console.log(countLetters(updatedText('SaIf Ali RaNdOm')));
+module.exports = {countLetters, updatedText};
+
